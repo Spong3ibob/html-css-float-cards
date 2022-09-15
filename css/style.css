@@ -9,6 +9,7 @@
 img{
     width: 100px;
     height: 100px;
+    
 }
 .clearfix::after {
     content: "";
@@ -28,7 +29,13 @@ body{
 }
 .colore-testo{
     color: white;
-    float: right;
+}
+.prova{
+    float: right;  
+}
+h3{
+    color: white;
+    text-align: left;
 }
 a{
     display: block;
