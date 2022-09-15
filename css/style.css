@@ -9,7 +9,10 @@
 /* typografy */
 
 /* main */
+/* title */
 h1{
     color: #E53170;
     font-family: 'Fredoka', sans-serif;
+    text-align: center;
+    padding-top: 30px;
 }
