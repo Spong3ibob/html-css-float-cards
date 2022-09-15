@@ -1,18 +1,24 @@
 /* Reset */
 *{
     box-sizing: border-box;
-    margin: 0;
+    margin: auto;
     padding: 0;
+    max-width: 1000px;  
 }
 /* common */
 
 /* typografy */
-
+body{
+    font-family: 'Fredoka', sans-serif; 
+}
 /* main */
 /* title */
 h1{
     color: #E53170;
-    font-family: 'Fredoka', sans-serif;
     text-align: center;
     padding-top: 30px;
+}
+/* description */
+p{
+    text-align: center;
 }
