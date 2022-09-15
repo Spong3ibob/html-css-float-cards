@@ -9,7 +9,7 @@
 img{
     width: 100px;
     height: 100px;
-    
+    float: left;
 }
 .clearfix::after {
     content: "";
@@ -19,9 +19,11 @@ img{
 .id-description{
     height: 100px;
     width: calc(1000px/3 - 20px);
-    background-color: black;
+    background-color: #0f0e17;
     float: left;
     margin: 10px;
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
 /* typografy */
 body{
@@ -29,21 +31,23 @@ body{
 }
 .colore-testo{
     color: white;
+    margin: 10px;
+    margin-left: 110px;
 }
-.prova{
-    float: right;  
-}
+
 h3{
     color: white;
     text-align: left;
+    margin: 10px;
+    margin-left: 110px;
 }
 a{
     display: block;
     color: aqua;
     text-decoration: none;
+    margin: 10px;
+    margin-left: 110px;
 }
-
-/* main */
 /* title */
 h1{
     color: #E53170;
