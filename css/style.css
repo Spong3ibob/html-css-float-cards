@@ -17,15 +17,23 @@ img{
 }
 .id-description{
     height: 100px;
-    width: calc(1000px/3 - 10px);
+    width: calc(1000px/3 - 20px);
     background-color: black;
     float: left;
-    margin: 5px;
+    margin: 10px;
 }
 /* typografy */
 body{
     font-family: 'Fredoka', sans-serif; 
 }
+.colore-testo{
+    color: white;
+    float: right;
+}
+a{
+    display: block;
+}
+
 /* main */
 /* title */
 h1{
@@ -34,10 +42,8 @@ h1{
     padding-top: 30px;
 }
 /* description */
-p{
-    text-align: center;
-}
 .description{
+    text-align: center;
     margin-top: 60px;
 }
-/* description components tem  */
+
