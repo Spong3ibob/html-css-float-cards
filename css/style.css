@@ -39,6 +39,8 @@ h3{
 }
 a{
     display: block;
+    color: aqua;
+    text-decoration: none;
 }
 
 /* main */
