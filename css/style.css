@@ -6,7 +6,22 @@
     max-width: 1000px;  
 }
 /* common */
-
+img{
+    width: 100px;
+    height: 100px;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.id-description{
+    height: 100px;
+    width: calc(1000px/3 - 10px);
+    background-color: black;
+    float: left;
+    margin: 5px;
+}
 /* typografy */
 body{
     font-family: 'Fredoka', sans-serif; 
@@ -25,3 +40,4 @@ p{
 .description{
     margin-top: 60px;
 }
+/* description components tem  */
