@@ -1,0 +1,15 @@
+/* Reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* common */
+
+/* typografy */
+
+/* main */
+h1{
+    color: #E53170;
+    font-family: 'Fredoka', sans-serif;
+}
